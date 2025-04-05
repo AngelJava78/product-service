@@ -14,7 +14,7 @@ import org.springframework.data.mongodb.core.mapping.Document;
 @Builder
 public class Product {
 
-  private String id;
+  private int id;
   private String name;
   private String category;
   private BigDecimal price;
